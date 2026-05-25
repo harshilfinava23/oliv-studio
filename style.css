@@ -511,7 +511,6 @@
         font-size: 5vw;
         font-weight: 500;
 
-
     }
 
     .contact-inf p {
@@ -527,4 +526,108 @@
         padding: 1vw;
         background-color: black;
         color: white;
+    }
+
+    .blogs {
+        height: 160vh;
+        width: 100%;
+    }
+
+    .blog-container {
+
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 1.5vw;
+    }
+
+    .blog {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .blog-img {
+        height: 70%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .blog-img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.4s ease;
+    }
+
+    .blog img:hover {
+        transform: scale(1.1);
+    }
+
+    .blog h3 {
+        font-size: 1.7vw;
+        font-weight: 500;
+        padding: 1vw 0;
+        line-height: 1.5;
+    }
+
+    .blog a {
+        text-decoration: none;
+        font-size: 1.3vw;
+        color: black;
+        opacity: 0.8;
+        padding: 1vw 0;
+    }
+
+    #blog1 img {
+        padding: 3vw 0;
+        height: 10vw;
+        width: 50%;
+
+    }
+
+    .blogs-icons {
+        font-size: 2vw;
+        padding: 1vw 0;
+    }
+
+    .blogs-icons i {
+        padding: 1vw;
+        border-radius: 2vw;
+        background-color: #F0F8FF;
+    }
+
+    .pages {
+        padding: 1vw 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+
+    }
+
+    .pages a {
+        color: black;
+        font-size: 1.4vw;
+    }
+    .blog p{
+        font-size: 1.8vw;
+        padding: 3vw 0 1vw 0;
+    }
+
+    .blog button {
+        padding: 1vw;
+        border-radius: 2vw;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+
+    .blog button:hover {
+        background-color: rgb(220, 220, 220);
+        color: black;
+    }
+    .blog #hr{
+        opacity: 0.5;
     }
