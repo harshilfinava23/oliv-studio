@@ -9,7 +9,7 @@ This project focuses on recreating a clean and premium agency-style UI with resp
 
 ## Preview
 
-![Oliv Studio](https://raw.githubusercontent.com/harshilfinava23/lombok-wellness-ui/main/ProjectSS.png)
+![Oliv Studio](https://raw.githubusercontent.com/harshilfinava23/oliv-studio/main/ProjectSS.png)
 
 ---
 
